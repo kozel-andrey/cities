@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Игра в города</title>
+    <link rel="stylesheet" href="css/app.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://api-maps.yandex.ru/2.0/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
+</head>
+<body>
+    <h1 class="title">Игра в города</h1>
+    <div class="row">
+        <div class="col-xs-6 col-xs-offset-3">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    Назовите или напишите название города ниже
+                </div>
+            </div>
+            <div class="play-field">
+                <input type="email"
+                       class="form-control"
+                       id="city_input"
+                       placeholder="Введите название города" onE>
+            </div>
+            <div id="error_field" class="panel panel-danger">
+                <div class="panel-heading">
+                    <div id="error_text"></div>
+                </div>
+            </div>
+            <div class="play-field">
+                <div id="map"/>
+            </div>
+        </div>
+    </div>
+    <script src="js/computer.js"></script>
+    <script src="js/game-data.js"></script>
+    <script src="js/cities-map.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
