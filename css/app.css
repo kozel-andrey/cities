@@ -6,19 +6,32 @@
 }
 
 .play-field {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 #map {
     width: 100%;
     min-width: 200px;
-    height: 40%;
-    min-height: 200px;
+    height: 300px;
     margin: 0;
     padding: 0;
 }
 
-#error_field {
-    margin-top: 40px;
+#chat {
+    height: 300px;
+    overflow-y:scroll;
+}
+
+.start-image {
+    width: 100%;
+    height: 100%;
+}
+
+#result-field {
     display: none
+}
+
+.end-button {
+    text-align: center;
+    margin-top: 20px;
 }
