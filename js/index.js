@@ -3,6 +3,7 @@
  */
 
 GameData.init();
+SpeechRecognizer.init();
 
 chooseCityListener = function (e) {
     if (!e) {

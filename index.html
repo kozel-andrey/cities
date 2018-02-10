@@ -23,13 +23,18 @@
         </div>
         <div class="play-field">
             <div class="input-group">
+                  <span class="input-group-btn">
+                    <button class="btn btn-info" id="speak">
+                        Произнести
+                    </button>
+                </span>
                 <input type="email"
                        class="form-control"
                        id="city_input"
                        placeholder="Введите название города и нажмите Enter">
                 <span class="input-group-btn">
                     <button class="btn btn-primary" id="choose_city">
-                        Назвать
+                        Выбрать
                     </button>
                 </span>
             </div>
@@ -85,6 +90,7 @@
         </div>
     </div>
 </div>
+<script src="js/speach-detector.js"></script>
 <script src="js/computer.js"></script>
 <script src="js/game-data.js"></script>
 <script src="js/cities-map.js"></script>
