@@ -4,6 +4,12 @@
 
 var CitiesMap = {
 
+    /**
+     * Зашруэаем полный список городов из файла сразу что бы
+     * была возможность валидации пользовательского ввода, что бы
+     * он мог вводить только корректные имена городов
+     */
+
     showCity: function (title) {
         ymaps.geocode(title, {results: 1}).then(function (res) {
             document.getElementById('map').innerHTML = '';
